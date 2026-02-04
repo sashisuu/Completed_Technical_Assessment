@@ -21,25 +21,19 @@ curl -F "file=@data.csv" http://localhost:4000/upload
 ``` 
 
 ## To Download
-Docker Desktop: https://www.docker.com/products/docker-desktop/ (**Ensure it is open and running before proceeding to next step**)
+Docker Desktop: https://www.docker.com/products/docker-desktop/ 
+
+After download is complete, ensure to open and run first.
 
 ## Commands
 ### Docker - Build & Start:
 docker compose up --build
 
 ### Run Test Cases
-1a. **Frontend:**
-    ```powershell
-    cd frontend
-    npm test
-    ```
-    #### **OR**
-2a. **Backend:**
-    ```powershell
-    cd backend
-    npm test
-    ```
+**Frontend/Backend:**
+1. cd frontend **OR** cd backend 
+2. npm test
     
 ## URLs
-1. Backend API: http://localhost:4000
-2. Frontend: http://localhost:5173
+1. **Frontend:** http://localhost:5173
+2. **Backend:** http://localhost:4000
