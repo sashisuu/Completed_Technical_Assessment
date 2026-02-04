@@ -33,7 +33,7 @@ docker compose up --build
     cd frontend
     npm test
     ```
-    **OR**
+    #### **OR**
 2a. **Backend:**
     ```powershell
     cd backend
